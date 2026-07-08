@@ -1,0 +1,21 @@
+# data + trained artifacts are large / reproducible, so they stay out of git
+data/
+models/
+mlruns/
+mlflow.db
+reports/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+
+# local commit-pacing helper (not part of the project)
+commit_next.sh
+.commit_plan/

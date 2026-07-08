@@ -1,0 +1,17 @@
+# pinned after the first clean install; torch/torchvision are the CPU wheels
+# (install those with: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu)
+torch
+torchvision
+mlflow
+fastapi
+uvicorn[standard]
+python-multipart
+h5py
+scikit-learn
+matplotlib
+pillow
+numpy
+pandas
+pytest
+ruff
+httpx
